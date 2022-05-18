@@ -4,11 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Status of reproducibility and open science in hep-lat</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="css/theme/sa2c.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,8 +16,63 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h2 style="padding-top: 30px;">
+						Status of reproducibility and open science in <em>hep-lat</em>
+					</h2>
+					<h3>
+						Ed Bennett
+					</h3>
+					<p style="padding-top: 30px">UKLFT Annual Meeting, 2022-05-27</p>
+					<p style="padding-top: 30px">Data: <a href="https://zenodo.org/record/tbc">doi:10.5281/zenodo.tbc</a></p>
+					<p>Slides: <a href="https://edbennett.github.io/uklft-talk-20220527">https://edbennett.github.io/uklft-talk-20220527</a></p>
+					<div style="padding-top: 30px;">
+						<a href="https://www.swansea.ac.uk">
+							<img class="plain title-image" src='images/su-vstack-white.svg' alt="Swansea University logo">
+						</a>
+						<a href="https://sa2c.swansea.ac.uk">
+							<img class="plain title-image" src='images/sa2c-white.svg' alt="SA2C logo">
+						</a>
+						<a href="https://www.supercomputing.wales">
+							<img class="plain title-image" src='images/scw-gradient-white-stack.svg' alt="Supercomputing Wales logo">
+						</a>
+						<a href="https://twitter.com/wefowales">
+							<img class="plain title-image" src='images/ERDF.svg' alt="European Regional Development Fund logo">
+							<a href="https://stfc.ukri.org">
+								<img class="plain title-image" src='images/stfc.svg' alt="Science and Technologies Facilities Council">
+							</a>
+						</a>
+					</div>
+				</section>
+
+				<section>
+					<h2>Outline</h2>
+					<ul>
+						<li>Motivation</li>
+						<li>Definitions</li>
+						<li>Survey of hep-lat in 2021:
+							<ul>
+								<li>Survey scope</li>
+								<li>Reproducibility and openness of:
+									<ul>
+										<li>Configuration production</li>
+										<li>Observable measurement</li>
+										<li>Analysis and post-processing</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>Next steps</li>
+					</ul>
+				</section>
+				<section data-markdown="slides/introduction.md" data-separator-vertical="^\r?\n-\r?\n$"> </section>
+				<section data-markdown="slides/survey.md" data-separator-vertical="^\r?\n-\r?\n$"> </section>
+				<section data-markdown="slides/conclusions.md" data-separator-vertical="^\r?\n-\r?\n$"> </section>
+				<section>
+					<h1>Thank you</h1>
+				</section>
+				<section data-markdown="slides/backup.md" data-separator-vertical="^\r?\n-\r?\n$"> </section>
+				</section>
 			</div>
 		</div>
 
@@ -25,15 +80,18 @@
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				width: 1366,
+				height: 768,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
 			});
 		</script>
 	</body>
