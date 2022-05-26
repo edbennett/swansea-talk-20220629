@@ -13,7 +13,7 @@
 
 -
 
-## What does lattice field theory do?
+## What computations does an LFT paper do?
 
 A very reductive view:
 
@@ -58,19 +58,19 @@ Citing software:
 
 ## How many submissions specify _any_ software?
 
-![Bar chart breaking down arXiv submissions by whether they acknowledge software. The majortity do not. A slight majority in the UK do.](../plots/specifies_any_software.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+![Bar chart breaking down arXiv submissions by whether they acknowledge software. The majortity do not. A slight majority in the UK do.](../plots/specifies_any_software.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1300px" -->
 
 -
 
 ## How is software acknowledged?
 
-![Bar chart breaking down submissions specifying software by the method of psecification. Citation to a paper is most common.](../plots/how_specifies_any_software.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+![Bar chart breaking down submissions specifying software by the method of psecification. Citation to a paper is most common.](../plots/how_specifies_any_software.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1400px" -->
 
 -
 
 ## Where does software live?
 
-![Bar chart breaking down the locations used for software in use. GitHub is the most popular, followed by Zenodo.](../plots/all_software_locations.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+![Bar chart breaking down the locations used for software in use. GitHub is the most popular, followed by Zenodo.](../plots/all_software_locations.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1000px" -->
 
 ---
 
@@ -93,7 +93,7 @@ Citing software:
 
 ![Bar chart breaking down whether publications specify what software was used for generating configurations. Internationally the majority do not; in the UK a slight majority do.](../plots/specifies_configuration_generation_software.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
 
-The UK is significantly better than average here.
+The UK is significantly better than average here. <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
 
 -
 
@@ -108,13 +108,13 @@ The UK is significantly better than average here.
 
 ## What about work that doesn't generate configurations?
 
-![Bar chart breaking down whether publications use existing field configurations; around 39% do. The majority of worldwide papers don't, but a slight majority of UK papers do.](../plots/uses_existing_configurations.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+![Bar chart breaking down whether publications use existing field configurations; around 39% do. The majority of worldwide papers don't, but a slight majority of UK papers do.](../plots/uses_existing_configurations.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1200px" -->
 
 -
 
 ## How are existing configurations acknowledged?
 
-![Bar chart breaking down how existing ensembles are acknowledged or cited. The overwhelming majority are citations to papers.](../plots/how_specify_ensembles.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+![Bar chart breaking down how existing ensembles are acknowledged or cited. The overwhelming majority are citations to papers.](../plots/how_specify_ensembles.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1200px"""-->
 
 -
 
@@ -130,13 +130,13 @@ The UK is significantly better than average here.
 
 ## How many papers acknowledge an LDG?
 
-![Bar chart breaking down whether papers acknowledge a lattice data grid. Less than 5% do; 0% within the UK.](../plots/acknowledges_data_grid.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+![Bar chart breaking down whether papers acknowledge a lattice data grid. Less than 5% do; 0% within the UK.](../plots/acknowledges_data_grid.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1200px" -->
 
 -
 
 ## Which LDGs are acknowledged?
 
-![Bar chart showing which lattice data grids are acknowledged. 14 of 14 use the JLDG; 10 also acknowledge ILDG.](../plots/which_data_grids.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+![Bar chart showing which lattice data grids are acknowledged. 14 of 14 use the JLDG; 10 also acknowledge ILDG.](../plots/which_data_grids.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="700px"-->
 
 * Japan has the most active(ly cited) LDG <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
 * Either the others aren't used, or aren't cited <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
@@ -157,7 +157,7 @@ The UK is significantly better than average here.
 
 ## Performing measurements
 
-![Bar chart breaking down whether publications specify what software was used for measurement. A significant majority internationally and a small majority in the UK do not](../plots/specifies_measurement_software.svg)
+![Bar chart breaking down whether publications specify what software was used for measurement. A significant majority internationally and a small majority in the UK do not](../plots/specifies_measurement_software.svg) <!-- .element width="1200px" -->
 
 -
 
@@ -165,7 +165,7 @@ The UK is significantly better than average here.
 
 ![Bar chart showing the top ten measurement codes. Chroma has 45 uses, QUDA 22, MILC and Grid 16.](../plots/measurement_software.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
 
-* 27 indicate unreleased modifications <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+* 27 indicate unreleased modifications <!-- .element: class="fragment fade-in" data-fragment-index="2" width="700px" -->
 * More only name toolkits (e.g. Grid, Chroma) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
 
 ---
@@ -183,13 +183,13 @@ The UK is significantly better than average here.
 
 ## Do authors publish data?
 
-![Bar chart breaking down how whether publications publish data. The overwhelming majority do not.](../plots/publish_any_data.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+![Bar chart breaking down how whether publications publish data. The overwhelming majority do not.](../plots/publish_any_data.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1300px" -->
 
 -
 
 ## Where are data published?
 
-![Bar chart showing where data are published. Out of 38 submissions, 12 publish data directly on the arXiv, 5 on GitLab, 3 each on Unibi and Zenodo.](../plots/used_data_repositories.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+![Bar chart showing where data are published. Out of 38 submissions, 12 publish data directly on the arXiv, 5 on GitLab, 3 each on Unibi and Zenodo.](../plots/used_data_repositories.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="800px" -->
 
 ---
 
@@ -205,16 +205,16 @@ The UK is significantly better than average here.
 
 ## Do authors specify _any_ software is used for analysis?
 
-![Bar graph breaking down whether software used for data analysis is specified. The vast majority of publications do not specify any software.](../plots/specifies_analysis_software.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+![Bar graph breaking down whether software used for data analysis is specified. The vast majority of publications do not specify any software.](../plots/specifies_analysis_software.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1300px" -->
 
 -
 
 ## What software is specified?
 
-![Bar graph showing the top 10 software packages acknowledged by hep-lat publications and crosslists. The top 5 in hep-lat are Mathematica, gvar, numpy, matplotlib, and lsqfit.](../plots/acknowledged_analysis_software.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+![Bar graph showing the top 10 software packages acknowledged by hep-lat publications and crosslists. The top 5 in hep-lat are Mathematica, gvar, numpy, matplotlib, and lsqfit.](../plots/acknowledged_analysis_software.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1300px" -->
 
 -
 
 ## Do authors publish a full analysis workflow?
 
-![Bar graph breaking down whether authors publish a full or partial analysis workflow. The overwhelming majority do not; only single digit numbers out of a thousand publish in full.](../plots/publish_analysis_workflow.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+![Bar graph breaking down whether authors publish a full or partial analysis workflow. The overwhelming majority do not; only single digit numbers out of a thousand publish in full.](../plots/publish_analysis_workflow.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1300px" -->
