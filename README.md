@@ -6,4 +6,4 @@ Talk given at the UKLFT Annual Meeting, Liverpool, 2022-05-27.
 * [Slides on GitHub Pages][rendered]
 
 [rendered]: https://edbennett.github.io/uklft-talk-20220527
-[zenodo]: https://zenodo.org
+[zenodo]: https://doi.org/10.5281/zenodo.6584001
