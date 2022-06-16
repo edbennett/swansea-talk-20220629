@@ -38,6 +38,16 @@ Research data (and software) should be:
 
 _Orthogonal to data being open_
 
+-
+
+## Persistent identifier
+
+A reference for a digital object that will not change.
+
+E.g. a Digital Object Identifier (DOI)
+
+CERN runs [Zenodo](https://www.zenodo.org), which gives DOIs to data
+
 ---
 
 # Motivation
@@ -71,9 +81,34 @@ Was that the best use of 6 years of arguments?
 
 -
 
+## Articles as advertisements
+
+_An article about computational science in a scientific publication is
+**not** the scholarship itself, it is merely **advertising** of the
+scholarship. The actual scholarship is the complete software development
+environment and the complete set of instructions which generated the
+figures._
+
+&mdash;[attributed to Jon Claerbout, around 1995](https://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf)
+
+-
+
 ## Why automated reproducibility?
 
 * Communication with words is imprecise
 * Papers have limited space
 * Human error is inevitable
+  * [Croucher's law](https://mikecroucher.github.io/MLPM_talk/):
+    I am an idiot and will make mistakes
 * Computers are pretty good at doing the same thing every time
+
+-
+
+## Why persistent identifiers?
+
+* Universities restructure their websites
+* Software hosting services come and go
+* People change usernames
+* People move institutions
+
+[![Image of a tweet reading "Another reminder: reviewers and editors need to insist that software be placed in a permanent repository. Not author's web site. Not GitHub.", quoting a second reading "Anyone know where to find the xenograft read detecting software Xenome? Link on the paper is dead."](images/code_archive_tweet.png) <!-- .element:  width="600px" -->](https://twitter.com/michaelhoffman/status/796103749068529667)

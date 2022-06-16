@@ -30,10 +30,14 @@
 ## [EB et al, 2202.05516](https://arxiv.org/abs/2202.05516)
 
 * Gauge configurations not shared
-  * Modified [HiRep](https://github.com/sa2c/HiRep) code and parameters shared
+  * Modified [HiRep](https://github.com/sa2c/HiRep); code, parameters shared
 * Measurement outputs available on [Zenodo](https://doi.org/10.5281/zenodo.6472270)
 * Almost all 20 plots and 6 tables generated programmatically
   * Remainder are schematic, not numerical
-  * Table contents available in [Zenodo](https://doi.org/10.5281/zenodo.6472270) data release
+  * Table contents available in [Zenodo data release](https://doi.org/10.5281/zenodo.6472270)
 * Code available on [GitHub](https://github.com/edbennett/sp2n-multirep-202203) and [Zenodo](https://doi.org/10.5281/zenodo.6472232)
   * Mix of Python and Mathematica
+* Not perfect!
+  * Code has no automated tests
+  * Automated _a posteriori_
+  * Some code and data duplication

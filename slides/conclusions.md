@@ -15,6 +15,17 @@
 
 -
 
+## Thoughts for non-lattice folks
+
+* If you're doing things manually, can you automate them?
+  * Remembering Croucher's law
+* If you're automating things, can you publish the workflow?
+* Even if it's 5 lines of Mathematica!
+  * The less there is, the easier it is to publish
+* If you're not sure where to start, talk to me
+
+-
+
 ## Next steps
 
 * Produce a manifesto of good practice in open science in lattice

@@ -72,10 +72,14 @@ Citing software:
 
 ![Bar chart breaking down the locations used for software in use. GitHub is the most popular, followed by Zenodo.](plots/all_software_locations.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1000px" -->
 
+* Zenodo is a data repository, gives DOIs
+* GitHub is a code collaboration/hosting service; does not
+
 ---
 
 ## Generating field configurations
 
+* Usually using Monte Carlo methods to sample from some action
 * Usually extremely expensive
   * Hard to test automated workflows end-to-end
   * Hard for others to reproduce (wait for Moore's law?)
