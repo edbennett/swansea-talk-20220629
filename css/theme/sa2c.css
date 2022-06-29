@@ -11,6 +11,28 @@
   font-family: CosmosBQ;
   src: url("../../fonts/CosmosBQ-Medium.otf"); }
 
+@font-face {
+  font-family: Futura;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/Futura-Medium-01.ttf");
+}
+
+@font-face {
+  font-family: Futura;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../../fonts/Futura-Bold-03.ttf.ttf");
+}
+
+@font-face {
+  font-family: Futura;
+  font-weight: normal;
+  font-style: italic;
+  src: url("../../fonts/Futura-MediumItalic-02.ttf");
+}
+
+
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
