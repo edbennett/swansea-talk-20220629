@@ -2,13 +2,6 @@
 
 -
 
-
-## Aside: The importance of a compute ecosystem
-
-![Bar chart breaking down the 91 numerical lattice papers; over 70 acknowledge HPC resources, over a third acknowledge DiRAC, and over a sixth acknowledge Supercomputing Wales](plots/dirac_scw.svg) <!-- .element width="800px" -->
-
--
-
 ## Who is generating configurations?
 
 ![Breakdown of collaborations generating configurations used by others](plots/used_configuration_generating_collaborations.svg) <!-- .element width="800px" -->

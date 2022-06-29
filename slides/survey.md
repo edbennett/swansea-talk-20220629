@@ -56,6 +56,12 @@ Citing software:
 
 -
 
+## Aside: The importance of a compute ecosystem
+
+![Bar chart breaking down the 91 numerical lattice papers; over 70 acknowledge HPC resources, over a third acknowledge DiRAC, and over a sixth acknowledge Supercomputing Wales](plots/dirac_scw.svg) <!-- .element width="800px" -->
+
+-
+
 ## How many submissions specify _any_ software?
 
 ![Bar chart breaking down arXiv submissions by whether they acknowledge software. The majortity do not. A slight majority in the UK do.](plots/specifies_any_software.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1300px" -->
@@ -70,7 +76,7 @@ Citing software:
 
 ## Where does software live?
 
-![Bar chart breaking down the locations used for software in use. GitHub is the most popular, followed by Zenodo.](plots/all_software_locations.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1000px" -->
+![Bar chart breaking down the locations used for software in use. GitHub is the most popular, followed by Zenodo.](plots/all_software_locations.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="700px" -->
 
 * Zenodo is a data repository, gives DOIs
 * GitHub is a code collaboration/hosting service; does not
@@ -103,7 +109,7 @@ The UK is significantly better than average here. <!-- .element: class="fragment
 
 ## What software is used to generate configurations?
 
-![Bar chart showing the top ten software packages used for configuration generation. Out of 100 papers, 14 use openQCD, 9 CL2QCD, and 7 each MILC, HiRep, FGrid, Chroma, BQCD](plots/configuration_generation_software.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+![Bar chart showing the top ten software packages used for configuration generation. Out of 100 papers, 14 use openQCD, 9 CL2QCD, and 7 each MILC, HiRep, FGrid, Chroma, BQCD](plots/configuration_generation_software.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="550px" -->
 
 * 11 indicate unreleased modifications <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
 * More only name toolkits (e.g. Grid, Chroma) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
@@ -124,37 +130,39 @@ The UK is significantly better than average here. <!-- .element: class="fragment
 
 ## Lattice Data Grids
 
-* International Lattice Data Grid
+* [International Lattice Data Grid](https://hpc.desy.de/ildg/)
   * Defines protocols and standards
-  * Local deployments in US, UK, Europe, Japan, Australia
+  * Local deployments (_Regional Grids_):
+    * US, UK, Europe, Japan, Australia
 * FAIR before FAIR
 * Early-ish example of open science
 
 -
 
-## How many papers acknowledge an LDG?
+## How many papers acknowledge ILDG/an RG?
 
 ![Bar chart breaking down whether papers acknowledge a lattice data grid. Less than 5% do; 0% within the UK.](plots/acknowledges_data_grid.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1200px" -->
 
 -
 
-## Which LDGs are acknowledged?
+## Which RGs are acknowledged?
 
 ![Bar chart showing which lattice data grids are acknowledged. 14 of 14 use the JLDG; 10 also acknowledge ILDG.](plots/which_data_grids.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="700px"-->
 
-* Japan has the most active(ly cited) LDG <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+* Japan has the most active(ly cited) RG <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
 * Either the others aren't used, or aren't cited <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
 
 -
 
 ## Ongoing work on ILDG
 
+* Most RGs in direpair
 * Perceived issues with ILDG:
   * DOIs, citability
   * Grid certificates
   * Rigidity of metadata
 * ILDG committees recently resumed activity
-  * Significant German government funding
+  * [Significant German government funding](https://www.punch4nfdi.de)
   * Dedicated staff to address these problems
 
 -
@@ -178,7 +186,7 @@ The UK is significantly better than average here. <!-- .element: class="fragment
 
 (Excluding field configurations)
 
-![Bar chart breaking down how publications acknowledge data they have used; the overwhelming majority are citations to papers](plots/how_acknowledges_other_data.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+![Bar chart breaking down how publications acknowledge data they have used; the overwhelming majority are citations to papers](plots/how_acknowledges_other_data.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1000px" -->
 
 * Acknowledgements to individuals <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
 * Not FAIR <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
@@ -207,7 +215,7 @@ The UK is significantly better than average here. <!-- .element: class="fragment
 
 -
 
-## Do authors specify _any_ software is used for analysis?
+## Do authors specify _any_ software used for analysis?
 
 ![Bar graph breaking down whether software used for data analysis is specified. The vast majority of publications do not specify any software.](plots/specifies_analysis_software.svg) <!-- .element: class="fragment fade-in" data-fragment-index="2" width="1300px" -->
 
